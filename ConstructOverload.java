@@ -1,4 +1,3 @@
-
 class Employee
 {
 	Employee(int id,String name)
@@ -12,6 +11,10 @@ class Employee
 		System.out.println("employee id:"+id);
 		
 	}
+	void display()
+	{
+		System.out.println("I am a method");
+	}
 }
 public class ConstructOverload {
 	public static void main(String[] args)
@@ -20,6 +23,7 @@ public class ConstructOverload {
 		Employee e2=new Employee(235);
 		Employee e3=new Employee(236,"venky");
 		Employee e4=new Employee(237,"karthik");
+		e1.display();
 	}
 
 }

@@ -6,6 +6,10 @@ class School
 	{
 		System.out.println("The id of the person is"+stu_id+"and fee is"+stu_fee);
 	}
+	 void display2()
+		{
+			System.out.println("I am a method");
+		} 
 }
 class Student extends School
 {
@@ -21,5 +25,6 @@ public static void main(String[] args)
 {
 	Student s1=new Student();
 	s1.display();
+	s1.display2();
 }
 }
